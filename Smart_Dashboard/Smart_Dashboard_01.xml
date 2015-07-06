@@ -1,0 +1,217 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Rotation" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1028" y="402"/>
+	</widget>
+	<widget field="Scheduler" type="Scheduler" class="edu.wpi.first.smartdashboard.gui.elements.Scheduler">
+		<location x="1028" y="423"/>
+	</widget>
+	<widget field="Gyro Reading" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="37" y="514"/>
+	</widget>
+	<widget field="Air Pressure" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="561" y="271"/>
+		<width>339</width>
+		<height>51</height>
+		<property name="Maximum" value="2.65"/>
+		<property name="Minimum" value="0.5"/>
+	</widget>
+	<widget field="Zero Lift Manually" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1028" y="368"/>
+	</widget>
+	<widget field="Lower Fork to Bottom" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1028" y="334"/>
+	</widget>
+	<widget field="getPos()" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="67" y="661"/>
+	</widget>
+	<widget field="Zero Lift Encoder" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="374" y="274"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="854" y="62"/>
+		<width>171</width>
+		<height>177</height>
+		<property name="Image File" value="C:\FRC\Robot_2015\Smart_Dashboard\wheatleyNoEye.png"/>
+		<property name="Maintain Aspect Ratio" value="true"/>
+	</static-widget>
+	<widget field="LowerOneLevel" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="381" y="246"/>
+	</widget>
+	<widget field="RaiseOneLevel" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="386" y="218"/>
+	</widget>
+	<widget field="Debug Hardware" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="7" y="180"/>
+	</widget>
+	<widget field="RaiseFork" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="406" y="171"/>
+	</widget>
+	<widget field="LowerFork" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="408" y="194"/>
+	</widget>
+	<widget field=" " type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="879" y="10"/>
+		<width>136</width>
+		<height>50</height>
+		<property name="Background" value="102.255.0.255"/>
+		<property name="Font Size" value="36"/>
+	</widget>
+	<widget field="  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="878" y="344"/>
+		<width>129</width>
+		<height>50</height>
+		<property name="Background" value="255.255.0.255"/>
+		<property name="Font Size" value="36"/>
+	</widget>
+	<widget field="   " type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="2" y="12"/>
+		<width>209</width>
+		<height>50</height>
+		<property name="Background" value="255.51.51.255"/>
+		<property name="Font Size" value="36"/>
+	</widget>
+	<widget field="Intake object" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="221" y="236"/>
+	</widget>
+	<widget field="Expel Object" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="224" y="213"/>
+	</widget>
+	<widget field="StopRollers" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="9" y="234"/>
+	</widget>
+	<widget field="MoveDistance" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="218" y="191"/>
+	</widget>
+	<widget field="Start Heading" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="31" y="430"/>
+	</widget>
+	<widget field="-" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="911" y="242"/>
+		<width>86</width>
+		<height>23</height>
+		<property name="Background" value="255.51.51.255"/>
+		<property name="Font Size" value="14"/>
+	</widget>
+	<widget field="," type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="19" y="340"/>
+		<width>115</width>
+		<height>50</height>
+		<property name="Background" value="102.153.255.255"/>
+		<property name="Font Size" value="36"/>
+	</widget>
+	<widget field="'" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="659" y="377"/>
+		<width>93</width>
+		<height>23</height>
+		<property name="Background" value="0.255.0.255"/>
+		<property name="Font Size" value="14"/>
+	</widget>
+	<widget field="" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="562" y="377"/>
+		<width>88</width>
+		<height>25</height>
+		<property name="Background" value="255.255.0.255"/>
+		<property name="Font Size" value="14"/>
+	</widget>
+	<widget field="Pattern" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="651" y="392"/>
+	</widget>
+	<widget field="Start Position" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="554" y="394"/>
+	</widget>
+	<widget field="Rotation Correction" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="15" y="637"/>
+	</widget>
+	<widget field="CloseFork" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="406" y="145"/>
+		<height>23</height>
+	</widget>
+	<widget field="IngestSequence" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="8" y="208"/>
+		<height>23</height>
+	</widget>
+	<widget field="CClampsReverse" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="405" y="37"/>
+		<height>23</height>
+	</widget>
+	<widget field="CloseIngestor" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="406" y="91"/>
+	</widget>
+	<widget field="SpinRollers" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="7" y="127"/>
+	</widget>
+	<widget field="OpenFork" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="406" y="118"/>
+	</widget>
+	<widget field="CClampsForward" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="406" y="8"/>
+		<height>23</height>
+	</widget>
+	<widget field="Rotate" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="13" y="263"/>
+	</widget>
+	<widget field="Forwards 2m" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="6" y="98"/>
+	</widget>
+	<widget field="DropStack" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="7" y="156"/>
+	</widget>
+	<widget field="OpenIngestor" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.CommandButton">
+		<location x="406" y="65"/>
+	</widget>
+	<widget field="Drive Mode" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="906" y="261"/>
+	</widget>
+	<widget field="Debug Motor" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="211" y="452"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="306" y="341"/>
+		<width>225</width>
+		<height>322</height>
+	</static-widget>
+	<widget field="DEBUG" type="String" class="edu.wpi.first.smartdashboard.gui.elements.FormattedField">
+		<location x="-31" y="330"/>
+		<width>575</width>
+		<height>353</height>
+		<property name="Background" value="204.255.255.255"/>
+	</widget>
+	<widget field="AUTONOMOUS" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="469" y="330"/>
+		<width>558</width>
+		<height>460</height>
+		<property name="Editable" value="false"/>
+		<property name="Background" value="255.255.204.255"/>
+	</widget>
+	<widget field="COMMANDS" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="-109" y="-123"/>
+		<width>653</width>
+		<height>457</height>
+		<property name="Editable" value="false"/>
+		<property name="Background" value="255.204.204.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="902" y="102"/>
+		<width>80</width>
+		<height>104</height>
+		<property name="Connection Color" value="51.102.255.255"/>
+		<property name="No Connection Color" value="51.51.51.255"/>
+		<property name="Graphics" value="Simple"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.WebcamViewerExtensionCompat">
+		<location x="546" y="11"/>
+		<property name="FPS" value="12"/>
+		<property name="Size" value="320x240"/>
+	</static-widget>
+	<widget field="TELEOP" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="482" y="1"/>
+		<width>544</width>
+		<height>332</height>
+		<property name="Editable" value="false"/>
+		<property name="Background" value="153.255.153.255"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
